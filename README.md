@@ -46,17 +46,14 @@ personal-finance-manager/
 ## 📥 Setup Instructions
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/personal-finance-manager.git
+   git clone https://github.com/your-username/personal_finance_manager.git
    cd personal-finance-manager
-   ```  
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```  
+   ```
+   ###### Replace your-username with 'khuc-tech' to clone the repo.  
+2. Install dependencies   
 3. Setup MySQL database:
     ```bash
-    mysql -u root -p < sql/schema.sql
-    mysql -u root -p < sql/sample_data.sql
+    mysql -u root -p < sql/schemas_and_sample_data.sql
     ```  
 4. Run the program:
     ```bash
